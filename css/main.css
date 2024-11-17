@@ -1,0 +1,57 @@
+h1{
+    font-family: "Pacifico", cursive;
+}
+h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Righteous", sans-serif;
+}
+.form{
+    font-family: "PT Sans Caption", sans-serif;
+    border-bottom: dotted black 2px;
+    border-top: dotted black 2px;
+    padding-left: 0;
+}
+body{
+    background-color: #F7ECDE;
+}
+.max-w{
+    max-width: 30rem;
+    
+}
+#edit-btn{
+    display: none;
+}
+
+.input1:focus ,.input2:focus {
+    border-color: rgb(255, 11, 11);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 11, 11, 0.2);
+}
+
+.input2.show:focus,.input1.show:focus {
+    border-color: rgb(52, 255, 11);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(52, 255, 11, 0.2);
+}
+.massage{
+    min-height: 100%;
+    z-index: 1031;
+}
+.display-massage{
+    display: none !important;
+}
+.animation{
+    
+    transform: translateY(0);
+    inset: 0;
+    transition: all 1s ease-in-out;
+}
+.animation.anim{
+    
+    transform: translateY(-50px);
+}
+
+
+
